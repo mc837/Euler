@@ -44,15 +44,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="1-Multiples_Of_3_And_5\Tests\ThreeFiveEvaluatorTests.cs" />
+    <Compile Include="1-Multiples_Of_3_And_5\ThreeFiveEvaluator.cs" />
     <Compile Include="3-Largest_Prime_Factor\PrimeFactorEvaluator.cs" />
     <Compile Include="3-Largest_Prime_Factor\Tests\PrimeFactorEvaluatorTests.cs" />
-    <Compile Include="3-Largest_Prime_Factor\Three_LargestPrimeFactorPogram.cs" />
+    <Compile Include="EulerPogram.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
